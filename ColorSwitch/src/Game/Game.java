@@ -426,17 +426,17 @@ public class Game {
 
     private void gameOver() throws IOException {
         if (isGameOver) {
-//            Main.heightCont = player.getBoundsInParent().getCenterY();
-//            Main.colorCont = currentColor;
-//            Main.scoreCont = playerScore;
-//            gameOverSound.play();
-//            gameOver.stop();
-//            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("endScreen.fxml"));
-//            Parent root = fxmlLoader.load();
-//            Stage stage = Main.primaryStage;
-//            stage.setScene(new Scene(root, 400, 600));
-//            stage.setTitle("Color Switch");
-//            stage.show();
+            Main.heightCont = player.getBoundsInParent().getCenterY();
+            Main.colorCont = currentColor;
+            Main.scoreCont = playerScore;
+            gameOverSound.play();
+            gameOver.stop();
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("endScreen.fxml"));
+            Parent root = fxmlLoader.load();
+            Stage stage = Main.primaryStage;
+            stage.setScene(new Scene(root, 400, 600));
+            stage.setTitle("Color Switch");
+            stage.show();
         }
     }
 
