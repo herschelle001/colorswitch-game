@@ -32,11 +32,11 @@ public class MainScreen {
         rotateo2();
         rotateNestedRing();
 
-        Image playImage = new Image(new File("src/Images/PlayButton.png").toURI().toString());
+        Image playImage = new Image(new File("ColorSwitch/src/Images/PlayButton.png").toURI().toString());
         playButton.setImage(playImage);
-        Image resumeImage = new Image(new File("src/Images/ResumeButton.png").toURI().toString());
+        Image resumeImage = new Image(new File("ColorSwitch/src/Images/ResumeButton.png").toURI().toString());
         resumeButton.setImage(resumeImage);
-        Image exitImage = new Image(new File("src/Images/ExitButton.png").toURI().toString());
+        Image exitImage = new Image(new File("ColorSwitch/src/Images/ExitButton.png").toURI().toString());
         exitButton.setImage(exitImage);
 
     }

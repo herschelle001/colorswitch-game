@@ -39,9 +39,9 @@ public class SavedScreen {
     public void initialize() throws IOException {
         rotateP1();
         rotateP2();
-        Image crossImage = new Image(new File("src/Images/CrossButton.png").toURI().toString());
+        Image crossImage = new Image(new File("ColorSwitch/src/Images/CrossButton.png").toURI().toString());
         crossButton.setImage(crossImage);
-        Image playImage = new Image(new File("src/Images/PlayButton.png").toURI().toString());
+        Image playImage = new Image(new File("ColorSwitch/src/Images/PlayButton.png").toURI().toString());
         playButton.setImage(playImage);
 
         File file = new File("savedGames.txt");

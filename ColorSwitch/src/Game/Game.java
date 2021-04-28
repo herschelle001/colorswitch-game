@@ -175,8 +175,8 @@ public class Game {
             contGame();
             Main.contGame = false;
         }
-        jumpSound = new AudioClip(new File("src/Sounds/jump.wav").toURI().toString());
-        gameOverSound = new AudioClip(new File("src/Sounds/dead.wav").toURI().toString());
+        jumpSound = new AudioClip(new File("ColorSwitch\\src\\Sounds\\jump.wav").toURI().toString());
+        gameOverSound = new AudioClip(new File("ColorSwitch\\src\\Sounds\\dead.wav").toURI().toString());
 
     }
 
@@ -288,7 +288,7 @@ public class Game {
             playerDownTimeline.play();
             collisionAnimation.start();
 
-            jumpSound.play();
+//            jumpSound.play();
         }
 
     }

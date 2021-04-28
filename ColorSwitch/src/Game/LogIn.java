@@ -35,11 +35,11 @@ public class LogIn {
     @FXML public void initialize() {
         rotateP1();
         rotateP2();
-        Image colorSwitch = new Image(new File("src/Images/ColorSwitch.jpg").toURI().toString());
+        Image colorSwitch = new Image(new File("ColorSwitch/src/Images/ColorSwitch.jpg").toURI().toString());
         image.setImage(colorSwitch);
-        Image playImage = new Image(new File("src/Images/PlayButton.png").toURI().toString());
+        Image playImage = new Image(new File("ColorSwitch/src/Images/PlayButton.png").toURI().toString());
         playButton.setImage(playImage);
-        Image cancelImage = new Image(new File("src/Images/CrossButton.png").toURI().toString());
+        Image cancelImage = new Image(new File("ColorSwitch/src/Images/CrossButton.png").toURI().toString());
         cancelButton.setImage(cancelImage);
     }
 

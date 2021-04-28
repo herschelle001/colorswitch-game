@@ -36,11 +36,11 @@ public class EndScreen {
         contLabel.setText("For " + num + " stars?");
         Main.scoreCont -= num;
 
-        Image playImage = new Image(new File("src/Images/PlayButton.png").toURI().toString());
+        Image playImage = new Image(new File("ColorSwitch/src/Images/PlayButton.png").toURI().toString());
         playButton.setImage(playImage);
-        Image resumeImage = new Image(new File("src/Images/ResumeButton.png").toURI().toString());
+        Image resumeImage = new Image(new File("ColorSwitch/src/Images/ResumeButton.png").toURI().toString());
         resumeButton.setImage(resumeImage);
-        Image exitImage = new Image(new File("src/Images/CrossButton.png").toURI().toString());
+        Image exitImage = new Image(new File("ColorSwitch/src/Images/CrossButton.png").toURI().toString());
         crossButton.setImage(exitImage);
     }
 
